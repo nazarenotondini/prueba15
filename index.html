@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nazareno Tondini Gómez · Portfolio</title>
+  <meta name="description" content="Portfolio profesional de Nazareno Tondini Gómez — Sound Design, Game Audio, Composición y arreglos." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://open.spotify.com" />
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="topbar" role="banner">
+    <div class="container topbar__inner">
+      <a class="brand" href="#sobre-mi" aria-label="Ir al inicio">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Nazareno Tondini Gómez</span>
+      </a>
+
+      <button class="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+        <span class="navToggle__bar"></span>
+        <span class="navToggle__bar"></span>
+        <span class="navToggle__bar"></span>
+        <span class="srOnly">Abrir menú</span>
+      </button>
+
+      <nav id="navMenu" class="nav" aria-label="Secciones">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#game-audio">Game Audio</a>
+        <a href="#diseno-sonoro">Diseño Sonoro</a>
+        <a href="#certificaciones">Certificaciones</a>
+        <a href="#servicios">Servicios</a>
+        <a class="nav__cta" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO / SOBRE MÍ -->
+    <section id="sobre-mi" class="section hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="kicker">Music · Tech · Storytelling</p>
+          <h1>Diseñamos sonido que <span class="grad">cuenta historias</span> y sistemas que <span class="grad2">reaccionan</span>.</h1>
+
+          <p class="lead">
+            Soy <strong>Nazareno Tondini Gómez</strong>: músico y sound designer enfocado en <strong>audio para videojuegos</strong>,
+            <strong>diseño sonoro</strong> y <strong>composición</strong>. Me interesa el cruce entre sensibilidad musical y herramientas
+            técnicas (implementación, optimización y audio adaptativo) para crear experiencias inmersivas.
+          </p>
+
+          <ul class="chips" aria-label="Áreas de trabajo">
+            <li>Sound Design</li>
+            <li>Game Audio</li>
+            <li>Wwise · Unity</li>
+            <li>Composición</li>
+            <li>Producción musical</li>
+          </ul>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#game-audio">Ver trabajos</a>
+            <a class="btn btn--ghost" href="#contacto">Contactar</a>
+          </div>
+
+          <div class="socialRow" aria-label="Enlaces externos">
+            <a class="pill" href="https://open.spotify.com/intl-es/artist/7MKuCK0eMUrcjICKlzS6jS?si=r_JX7bR2TQ6ZRv3590JYZg" target="_blank" rel="noreferrer">Spotify</a>
+            <a class="pill" href="https://www.instagram.com/nazatondini/" target="_blank" rel="noreferrer">Instagram</a>
+            <a class="pill" href="mailto:nazareno@mendoza.edu.ar">Email</a>
+          </div>
+        </div>
+
+        <div class="hero__media" aria-label="Foto de Nazareno">
+          <img src="assets/img/9999999.JPG" alt="Nazareno Tondini Gómez" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCCIONES MUSICALES -->
+    <section id="producciones" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Producciones Musicales</h2>
+          <p>Selección de trabajos publicados. Reproducimos directamente desde Spotify.</p>
+        </div>
+
+        <div class="grid2">
+          <article class="card">
+            <div class="card__head">
+              <h3>Episodio Piloto (2024)</h3>
+              <a class="btn btn--small" target="_blank" rel="noreferrer" href="https://open.spotify.com/intl-es/album/2nfmFAc7ezbzGtfCxlwdTC?si=OQ-ybW3kS66H-a2nKKYEjg&nd=1&dlsi=76255fe7556245a4">Escuchar en Spotify</a>
+            </div>
+            <div class="embed">
+              <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/2nfmFAc7ezbzGtfCxlwdTC?utm_source=generator"
+                width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3>DesNudos (2025)</h3>
+              <a class="btn btn--small" target="_blank" rel="noreferrer" href="https://open.spotify.com/intl-es/album/34FxwfY2jYqsk5rTFudyBo?si=YH8tMKDATjmGduHfMOhXww&nd=1&dlsi=ecec0afa41744c55">Escuchar en Spotify</a>
+            </div>
+            <div class="embed">
+              <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/34FxwfY2jYqsk5rTFudyBo?utm_source=generator"
+                width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAME AUDIO -->
+    <section id="game-audio" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Game Audio</h2>
+          <p>Implementación técnica, audio adaptativo y prototipos de gameplay sound.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="tile">
+            <img class="tile__img" src="assets/img/demovideo.JPG" alt="Demo de implementación y audio adaptativo" loading="lazy" />
+            <div class="tile__body">
+              <h3>Implementación & audio adaptativo</h3>
+              <p>Sistemas reactivos orientados a gameplay: estados, capas, variaciones y mezcla dinámica.</p>
+              <ul class="list">
+                <li>Wwise · Unity</li>
+                <li>Dynamic audio systems</li>
+                <li>Performance & mix</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tile">
+            <img class="tile__img" src="assets/img/Funny Slappy Icon.png" alt="Juego Funny Slappy" loading="lazy" />
+            <div class="tile__body">
+              <h3>Funny Slappy</h3>
+              <p>Proyecto Global Game Jam 2026.</p>
+              <a class="btn btn--small" target="_blank" rel="noreferrer" href="https://globalgamejam.org/games/2026/funny-slappy-2">Ver juego</a>
+            </div>
+          </article>
+
+          <article class="tile">
+            <img class="tile__img" src="assets/img/jam.jpeg" alt="Juego Mask of Denial" loading="lazy" />
+            <div class="tile__body">
+              <h3>Mask of Denial</h3>
+              <p>Proyecto Global Game Jam 2026.</p>
+              <a class="btn btn--small" target="_blank" rel="noreferrer" href="https://globalgamejam.org/games/2026/musk-denial-5">Ver juego</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          <strong>Game Audio (demo):</strong>
+          <span>Incluimos también un material adicional de implementación en la sección de contacto para compartir según necesidad del proyecto.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISEÑO SONORO -->
+    <section id="diseno-sonoro" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Diseño Sonoro</h2>
+          <p>Creación de atmósferas, SFX y piezas orientadas a narrativa, videojuegos y audiovisual.</p>
+        </div>
+
+        <div class="grid2">
+          <article class="card">
+            <div class="card__head">
+              <h3>Sound Design · Pieza 1</h3>
+              <span class="muted">Soundscapes · Foley & SFX · Mix</span>
+            </div>
+            <div class="video">
+              <iframe src="https://drive.google.com/file/d/1qPuuUEymghao6ziI-FSTfuzBZ2aL3P6s/preview" allow="autoplay" loading="lazy" title="Sound Design - Video 1"></iframe>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3>Sound Design · Pieza 2</h3>
+              <span class="muted">Soundtracks · Mix · Master</span>
+            </div>
+            <div class="video">
+              <iframe src="https://drive.google.com/file/d/1wGHDtJ_ph3MLPKEFRlAP42USy5I56sBt/preview" allow="autoplay" loading="lazy" title="Sound Design - Video 2"></iframe>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3>Sound Design · Pieza 3</h3>
+              <span class="muted">Diseño · Edición · Mezcla</span>
+            </div>
+            <div class="video">
+              <iframe src="https://drive.google.com/file/d/1apLaF9lEyAPYeeUmWFQ3BKqFO0YAWOAp/preview" allow="autoplay" loading="lazy" title="Sound Design - Video 3"></iframe>
+            </div>
+          </article>
+
+          <article class="card card--compact">
+            <div class="card__head">
+              <h3>Composición & Arreglos</h3>
+            </div>
+            <p class="muted">
+              Música a medida para cine y teatro. Arreglos orquestales y texturas minimalistas.
+            </p>
+            <ul class="list">
+              <li>Soundtracks</li>
+              <li>Arrangement</li>
+              <li>Music Production</li>
+            </ul>
+            <a class="btn btn--small" href="#producciones">Ver Producciones Musicales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICACIONES -->
+    <section id="certificaciones" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Certificaciones</h2>
+          <p>Formación y acreditaciones técnicas (Audiokinetic Wwise).</p>
+        </div>
+
+        <div class="grid4 certs">
+          <article class="cert">
+            <img src="assets/img/cert_wwise101.png" alt="Certificado Wwise 101" loading="lazy" />
+            <div class="cert__meta">
+              <h3>Wwise 101</h3>
+              <p class="muted">Certified End User</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <img src="assets/img/cert_unity.png" alt="Certificado Wwise Unity Integration" loading="lazy" />
+            <div class="cert__meta">
+              <h3>Wwise Unity Integration</h3>
+              <p class="muted">Certified End User</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <img src="assets/img/cert_opt.png" alt="Certificado Wwise Performance Optimization" loading="lazy" />
+            <div class="cert__meta">
+              <h3>Performance Optimization</h3>
+              <p class="muted">Certified End User</p>
+            </div>
+          </article>
+
+          <article class="cert">
+            <img src="assets/img/cert_music.png" alt="Certificado Wwise Interactive Music" loading="lazy" />
+            <div class="cert__meta">
+              <h3>Interactive Music</h3>
+              <p class="muted">Certified End User</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Servicios</h2>
+          <p>Servicios pensados para estudios, equipos indie y proyectos audiovisuales.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="service">
+            <h3>Diseño Sonoro</h3>
+            <p>Creación de atmósferas y SFX que construyen mundos inmersivos.</p>
+            <ul class="list">
+              <li>Soundscapes</li>
+              <li>Foley & SFX</li>
+              <li>Soundtracks</li>
+              <li>Mix</li>
+              <li>Master</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <h3>Game Audio</h3>
+            <p>Implementación técnica en Wwise/Unity. Sistemas de audio adaptativo.</p>
+            <ul class="list">
+              <li>Technical Sound Designer</li>
+              <li>Audio Programmer</li>
+              <li>Dynamic audio systems</li>
+              <li>Wwise · Unity · GitHub</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <h3>Composición & Arreglos</h3>
+            <p>Música a medida para cine y teatro. Arreglos orquestales y texturas minimalistas.</p>
+            <ul class="list">
+              <li>Soundtracks</li>
+              <li>Arrangement</li>
+              <li>Music Production</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Contacto</h2>
+          <p>Escribime y contame tu proyecto. Respondo con una propuesta clara y un plan de trabajo.</p>
+        </div>
+
+        <div class="contactGrid">
+          <div class="contactCard">
+            <h3>Contacto directo</h3>
+            <div class="contactRow">
+              <span class="label">Email</span>
+              <a href="mailto:nazareno@mendoza.edu.ar">nazareno@mendoza.edu.ar</a>
+            </div>
+            <div class="contactRow">
+              <span class="label">Instagram</span>
+              <a href="https://www.instagram.com/nazatondini/" target="_blank" rel="noreferrer">@nazatondini</a>
+            </div>
+            <div class="contactRow">
+              <span class="label">Spotify</span>
+              <a href="https://open.spotify.com/intl-es/artist/7MKuCK0eMUrcjICKlzS6jS?si=r_JX7bR2TQ6ZRv3590JYZg" target="_blank" rel="noreferrer">Perfil de artista</a>
+            </div>
+
+            <div class="miniActions">
+              <button class="btn btn--small btn--ghost" type="button" data-copy="nazareno@mendoza.edu.ar">Copiar email</button>
+              <button class="btn btn--small" type="button" data-share>Compartir portfolio</button>
+            </div>
+          </div>
+
+          <div class="contactCard">
+            <h3>Material adicional</h3>
+            <p class="muted">Demo extra de Game Audio (Drive preview).</p>
+            <div class="video">
+              <iframe src="https://drive.google.com/file/d/1qxH0KqbrAO7nn4o6VZ4GMQKV3B8VSfWn/preview" allow="autoplay" loading="lazy" title="Game Audio - Demo adicional"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted">© <span id="year"></span> Nazareno Tondini Gómez. Portfolio creado para mostrar trabajos y servicios.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
